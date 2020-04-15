@@ -58,10 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
           echo json_encode($moviesarray);
           http_response_code(200);
         } 
-        else if ($_GET['url'] == "users") {
-
-        }
-
+        
 } else if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         if ($_GET['url'] == "users") {
